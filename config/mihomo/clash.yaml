@@ -155,6 +155,11 @@ rules:
 
 # 规则集
 ## type：可选http/file/inline  behavior：可选domain/ipcidr/classical format：可选yaml/text/mrs
+##规则集获取：
+#新格式二进制：
+##https://github.com/MetaCubeX/meta-rules-dat/tree/meta
+#老格式：
+##https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash
 rule-anchor:
   ip: &ip {type: http, interval: 86400, behavior: ipcidr, format: mrs}
   domain: &domain {type: http, interval: 86400, behavior: domain, format: mrs}
